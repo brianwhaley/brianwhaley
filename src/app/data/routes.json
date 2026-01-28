@@ -31,88 +31,244 @@
 		]
 	},
 	"routes": [
-		{ 
-			"name": "Home", 
-			"path": "/", 
+		{
+			"name": "Home",
+			"path": "/",
 			"title": "Brian Whaley - Home",
 			"description": "I am involved in lots of projects, including custom web development for small businesses, stock photography, custom sunglasses, and more.",
-			"keywords": "brian whaley, web development, custom, small business, global, high performance teams, digital products, technology strategy, highly available, e-commerce portal, web sites, web applications, onshore, offshore, hybrid teams, stock photography, social media"  
-		} , { 
-			"name": "Work Portfolio", 
-			"path": "/workportfolio", 
+			"keywords": "brian whaley, web development, custom, small business, global, high performance teams, digital products, technology strategy, highly available, e-commerce portal, web sites, web applications, onshore, offshore, hybrid teams, stock photography, social media"
+		},
+		{
+			"name": "Work Portfolio",
+			"path": "/workportfolio",
 			"title": "Brian Whaley - Work Portfolio",
-			"description": "A carousel gallery showing screenshots of some of the web properties I have worked on." ,
-			"keywords": "Brian Whaley, brian whaley, carousel, gallery, screenshots, web development, work portfolio" 
-		} , { 
-			"name": "Resume", 
-			"path": "/resume", 
+			"description": "A carousel gallery showing screenshots of some of the web properties I have worked on.",
+			"keywords": "Brian Whaley, brian whaley, carousel, gallery, screenshots, web development, work portfolio"
+		},
+		{
+			"name": "Resume",
+			"path": "/resume",
 			"title": "Brian Whaley - Resume",
 			"description": "View the resume of Brian Whaley",
-			"keywords": "brian whaley, resume, curriculum vitae, professional summary, contact information, education, skills, qualifications, work history, projects, voluteer work, certifications, honors and awards, training and conferences, rererences" 
-		} , { 
-			"name": "ReadMe", 
-			"path": "/readme", 
+			"keywords": "brian whaley, resume, curriculum vitae, professional summary, contact information, education, skills, qualifications, work history, projects, voluteer work, certifications, honors and awards, training and conferences, rererences"
+		},
+		{
+			"name": "ReadMe",
+			"path": "/readme",
 			"title": "Brian Whaley - ReadMe",
 			"description": "Every good piece of software needs a readme.  So do people.",
-			"keywords": "brian whaley, readme, management style"  
-		} , { 
-			"name": "Family Recipes", 
-			"path": "/recipes", 
+			"keywords": "brian whaley, readme, management style"
+		},
+		{
+			"name": "Family Recipes",
+			"path": "/recipes",
 			"title": "Brian Whaley - Recipes",
 			"description": "Pace / Barbano / Whaley Recipes through the ages",
-			"keywords": "family recipes, pace family, barbano family, whaley family, italian recipes" 
-		} , { 
-			"name": "Pixelated Tech", 
-			"path": "https://www.pixelated.tech", 
+			"keywords": "family recipes, pace family, barbano family, whaley family, italian recipes"
+		},
+		{
+			"name": "Pixelated Tech",
+			"path": "https://www.pixelated.tech",
 			"target": "_blank",
 			"title": "Brian Whaley - PixelAted Tech",
 			"description": "Pixelated Technologies",
-			"keywords": "Pixelated Technologies" 
-		} , { 
-			"name": "PixelVivid", 
-			"path": "https://www.pixelvivid.com", 
+			"keywords": "Pixelated Technologies"
+		},
+		{
+			"name": "PixelVivid",
+			"path": "https://www.pixelvivid.com",
 			"target": "_blank",
 			"title": "Brian Whaley - PixelVivid",
 			"description": "PixelVivid",
-			"keywords": "PixelVivid" 
-		} , { 
+			"keywords": "PixelVivid"
+		},
+		{
 			"name": "Sandbox",
 			"routes": [
-				{ 
-					"name": "Buzzword Bingo", 
-					"path": "/buzzwordbingo", 
+				{
+					"name": "Buzzword Bingo",
+					"path": "/buzzwordbingo",
 					"title": "Brian Whaley - Buzzword Bingo",
 					"description": "Buzzword Bingo is a game that is played in meetings to help keep you awake.",
-					"keywords": "brian whaley, buzzword bingo, corporate speak bingo, meeting bingo, business buzzwords" 
-				} 
+					"keywords": "brian whaley, buzzword bingo, corporate speak bingo, meeting bingo, business buzzwords"
+				}
+			]
+		},
+		{
+			"name": "Style Guide",
+			"hidden": true,
+			"path": "/styleguide",
+			"title": "Brian Whaley - Style Guide",
+			"description": "A full style guide for this website, including color pallete, fonts, and information architecture. ",
+			"keywords": [
+				"Brian Whaley",
+				"web development",
+				"style guide"
+			]
+		},
+		{
+			"name": "Humans Txt",
+			"hidden": true,
+			"path": "/humans.txt",
+			"title": "Brian Whaley - Humans Txt",
+			"description": "A Humans-Only page describing the people who worked on this website. ",
+			"keywords": [
+				"Brian Whaley",
+				"web development",
+				"humans txt"
 			]
 		}
 	],
 	"visualdesign": {
-		"primary-color": { "value": "#369", "type": "color", "group": "palette", "label": "Primary color" },
-		"secondary-color": { "value": "#BCD", "type": "color", "group": "palette", "label": "Secondary color" },
-		"accent1-color": { "value": "#CCC", "type": "color", "group": "palette", "label": "Accent color 1" },
-		"accent2-color": { "value": "#EEE", "type": "color", "group": "palette", "label": "Accent color 2" },
-		"bg-color": { "value": "#ffffff", "type": "color", "group": "palette", "label": "Background color" },
-		"text-color": { "value": "#000000", "type": "color", "group": "palette", "label": "Font color" },
-		"header-font": { "value": "\"Montserrat\", Verdana, sans-serif", "type": "font", "group": "typography", "label": "Header font" },
-		"body-font": { "value": "\"Roboto\", Arial, sans-serif", "type": "font", "group": "typography", "label": "Body font" },
-		"font-size1-min": { "value": "2.00rem", "type": "size", "group": "typography", "label": "Font size 1 min" },
-		"font-size1-max": { "value": "3.00rem", "type": "size", "group": "typography", "label": "Font size 1 max" },
-		"font-size2-min": { "value": "1.35rem", "type": "size", "group": "typography", "label": "Font size 2 min" },
-		"font-size2-max": { "value": "1.75rem", "type": "size", "group": "typography", "label": "Font size 2 max" },
-		"font-size3-min": { "value": "1.17rem", "type": "size", "group": "typography", "label": "Font size 3 min" },
-		"font-size3-max": { "value": "1.35rem", "type": "size", "group": "typography", "label": "Font size 3 max" },
-		"font-size4-min": { "value": "1.00rem", "type": "size", "group": "typography", "label": "Font size 4 min" },
-		"font-size4-max": { "value": "1.25rem", "type": "size", "group": "typography", "label": "Font size 4 max" },
-		"font-size5-min": { "value": "0.83rem", "type": "size", "group": "typography", "label": "Font size 5 min" },
-		"font-size5-max": { "value": "1.00rem", "type": "size", "group": "typography", "label": "Font size 5 max" },
-		"font-size6-min": { "value": "0.67rem", "type": "size", "group": "typography", "label": "Font size 6 min" },
-		"font-size6-max": { "value": "0.85rem", "type": "size", "group": "typography", "label": "Font size 6 max" },
-		"font-min-screen": { "value": "375px", "type": "size", "group": "typography", "label": "Font min screen" },
-		"font-max-screen": { "value": "1440px", "type": "size", "group": "typography", "label": "Font max screen" },
-		"border-radius": { "value": "0.5rem", "type": "size", "group": "layout", "label": "Border radius" },
-		"box-shadow": { "value": "0 2px 4px rgba(0,0,0,0.1)", "type": "shadow", "group": "layout", "label": "Box shadow" },
-		"transition": { "value": "all 0.3s ease", "type": "transition", "group": "layout", "label": "Transition" }
+		"primary-color": {
+			"value": "#369",
+			"type": "color",
+			"group": "palette",
+			"label": "Primary color"
+		},
+		"secondary-color": {
+			"value": "#BCD",
+			"type": "color",
+			"group": "palette",
+			"label": "Secondary color"
+		},
+		"accent1-color": {
+			"value": "#CCC",
+			"type": "color",
+			"group": "palette",
+			"label": "Accent color 1"
+		},
+		"accent2-color": {
+			"value": "#EEE",
+			"type": "color",
+			"group": "palette",
+			"label": "Accent color 2"
+		},
+		"bg-color": {
+			"value": "#ffffff",
+			"type": "color",
+			"group": "palette",
+			"label": "Background color"
+		},
+		"text-color": {
+			"value": "#000000",
+			"type": "color",
+			"group": "palette",
+			"label": "Font color"
+		},
+		"header-font": {
+			"value": "\"Montserrat\", Verdana, sans-serif",
+			"type": "font",
+			"group": "typography",
+			"label": "Header font"
+		},
+		"body-font": {
+			"value": "\"Roboto\", Arial, sans-serif",
+			"type": "font",
+			"group": "typography",
+			"label": "Body font"
+		},
+		"font-size1-min": {
+			"value": "2.00rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 1 min"
+		},
+		"font-size1-max": {
+			"value": "3.00rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 1 max"
+		},
+		"font-size2-min": {
+			"value": "1.35rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 2 min"
+		},
+		"font-size2-max": {
+			"value": "1.75rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 2 max"
+		},
+		"font-size3-min": {
+			"value": "1.17rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 3 min"
+		},
+		"font-size3-max": {
+			"value": "1.35rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 3 max"
+		},
+		"font-size4-min": {
+			"value": "1.00rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 4 min"
+		},
+		"font-size4-max": {
+			"value": "1.25rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 4 max"
+		},
+		"font-size5-min": {
+			"value": "0.83rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 5 min"
+		},
+		"font-size5-max": {
+			"value": "1.00rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 5 max"
+		},
+		"font-size6-min": {
+			"value": "0.67rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 6 min"
+		},
+		"font-size6-max": {
+			"value": "0.85rem",
+			"type": "size",
+			"group": "typography",
+			"label": "Font size 6 max"
+		},
+		"font-min-screen": {
+			"value": "375px",
+			"type": "size",
+			"group": "typography",
+			"label": "Font min screen"
+		},
+		"font-max-screen": {
+			"value": "1440px",
+			"type": "size",
+			"group": "typography",
+			"label": "Font max screen"
+		},
+		"border-radius": {
+			"value": "0.5rem",
+			"type": "size",
+			"group": "layout",
+			"label": "Border radius"
+		},
+		"box-shadow": {
+			"value": "0 2px 4px rgba(0,0,0,0.1)",
+			"type": "shadow",
+			"group": "layout",
+			"label": "Box shadow"
+		},
+		"transition": {
+			"value": "all 0.3s ease",
+			"type": "transition",
+			"group": "layout",
+			"label": "Transition"
+		}
 	}
 }

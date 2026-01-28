@@ -3,7 +3,7 @@ import path from 'path';
 
 const nextConfig: NextConfig = {
 	experimental: {
-    	optimizeCss: true,
+    	optimizeCss: false,
   	},
 	outputFileTracingIncludes: {
 		'/**': ['./src/app/config/pixelated.config.json.enc'],
@@ -57,10 +57,9 @@ const nextConfig: NextConfig = {
 			fs: false,
 			path: false
 		};
-		config.resolve.alias = {
-			...(config.resolve?.alias || {}),
-			'@': path.resolve(__dirname, 'src'),
-		};
+		if (!config.resolve) config.resolve = {};
+		if (!config.resolve.alias) config.resolve.alias = {};
+		config.resolve.alias['@'] = path.resolve(__dirname, 'src');
 		return config;
 	},
 

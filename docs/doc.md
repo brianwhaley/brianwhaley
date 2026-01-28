@@ -58,7 +58,7 @@ npm outdated | awk 'NR>1 {print $1"@"$4}' | xargs npm install --force --save
 npm audit fix --force
 npm run lint
 npm version patch --force
-git add * -v
+git add . -v
 git commit -m "improved amplify.yml"
 git push -u brianwhaley dev --tags
 git push brianwhaley dev:main
